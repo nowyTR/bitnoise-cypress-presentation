@@ -8,7 +8,7 @@ export const Slide3 = (
   <Slide transition={['zoom']} bgColor="primary">
     <Notes>
       <ol>
-        <li>test</li>
+        <li>na koniec: mały wybór narzędzi, Selenium stworzone 15 lat temu</li>
       </ol>
     </Notes>
     <Heading margin="30px 0 30px 0" size={4} caps lineHeight={1} textColor="quaternary">
@@ -32,17 +32,17 @@ export const Slide3 = (
       </Appear>
       <Appear>
         <ListItem margin="10px 0" textSize={26}>
+          Piszemy zazwyczaj minimalną ilość testów tylko dla krytycznych miejsc aplikacji
+        </ListItem>
+      </Appear>
+      <Appear>
+        <ListItem margin="10px 0" textSize={26} textColor="red">
           Wynik testu nie zawsze jest powtarzalny, szczególnie jeśli test jest długi i obejmuje kilka scenariuszy.
         </ListItem>
       </Appear>
       <Appear>
-        <ListItem margin="10px 0" textSize={26}>
+        <ListItem margin="10px 0" textSize={26} textColor="red">
           Uzyskujemy informację która funkcjonalność nie działa, sami musimy znaleźć fragment kodu
-        </ListItem>
-      </Appear>
-      <Appear>
-        <ListItem margin="10px 0" textSize={26}>
-          Piszemy zazwyczaj minimalną ilość testów tylko dla krytycznych miejsc aplikacji
         </ListItem>
       </Appear>
     </List>

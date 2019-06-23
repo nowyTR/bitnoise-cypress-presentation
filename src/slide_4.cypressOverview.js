@@ -16,10 +16,13 @@ export const Slide4 = (
     </Heading>
     <List padding="0 60px 0 0">
       <ListItem margin="10px 0" textSize={26}>
-        Kompletny framework do testowania, pozwala na pisanie testów każdego rodzaju
+        Kompletny framework do testowania, pozwala na pisanie przy użyciu Javascript testów każdego rodzaju
       </ListItem>
       <ListItem margin="10px 0" textSize={26}>
         Wiele wbudowanych narzędzi takich jak: Mocha, Chai, Sinon, <S type="bold">jQuery</S>
+      </ListItem>
+      <ListItem margin="10px 0" textSize={26}>
+        Skierowany do Developerów i Inżynierów Jakości oprogramowania (QA Engineer)
       </ListItem>
       <ListItem margin="10px 0" textSize={26}>
         Open Sourcowy Test Runner - aplikacja pozwalająca na uruchamianie testów w przeglądarce
