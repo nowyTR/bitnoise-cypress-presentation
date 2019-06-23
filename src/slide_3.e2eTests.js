@@ -5,13 +5,13 @@ import React from 'react'
 import { Heading, Slide, Notes, Appear, List, ListItem } from 'spectacle'
 
 export const Slide3 = (
-  <Slide transition={['zoom']} bgColor="primary">
+  <Slide>
     <Notes>
       <ol>
         <li>na koniec: mały wybór narzędzi, Selenium stworzone 15 lat temu</li>
       </ol>
     </Notes>
-    <Heading margin="30px 0 30px 0" size={4} caps lineHeight={1} textColor="quaternary">
+    <Heading margin="30px 0 30px 0" size={4} caps lineHeight={1} textColor="primary">
       Testy End to End
     </Heading>
     <List padding="0 60px 0 0">

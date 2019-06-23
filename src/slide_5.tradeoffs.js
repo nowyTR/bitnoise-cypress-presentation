@@ -5,7 +5,7 @@ import React from 'react'
 import { Heading, Slide, Notes, Appear, List, ListItem } from 'spectacle'
 
 export const Slide5 = (
-  <Slide transition={['zoom']} bgColor="primary">
+  <Slide>
     <Notes>
       <ol>
         <li>nigdy nie będzie wsparcia dla tabów, nie jest potrzebne -> anchor zawsze otworzy taba</li>
@@ -14,7 +14,7 @@ export const Slide5 = (
         <li>hover, iframe, file download/upload</li>
       </ol>
     </Notes>
-    <Heading margin="30px 0 30px 0" size={6} caps lineHeight={1} textColor="quaternary">
+    <Heading margin="30px 0 30px 0" size={6} caps lineHeight={1} textColor="primary">
       Kompromisy - nie ma rzeczy idealnych
     </Heading>
     <List padding="0 60px 0 0">

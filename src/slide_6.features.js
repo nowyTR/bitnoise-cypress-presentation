@@ -5,7 +5,7 @@ import React from 'react'
 import { Heading, Slide, Notes, Appear, List, ListItem } from 'spectacle'
 
 export const Slide6 = (
-  <Slide transition={['zoom']} bgColor="primary">
+  <Slide>
     <Notes>
       <ol>
         <li>snapshoty -> poszczególne kroki są zapisywane, widzimy dokładnie co zdarzyło się na danym kroku [DEMO]</li>
@@ -21,7 +21,7 @@ export const Slide6 = (
         <li>stub, spy, clock https://docs.cypress.io/guides/guides/stubs-spies-and-clocks.html#Capabilities</li>
       </ol>
     </Notes>
-    <Heading margin="30px 0 30px 0" size={6} caps lineHeight={1} textColor="quaternary">
+    <Heading margin="30px 0 30px 0" size={6} caps lineHeight={1} textColor="primary">
       Ficzery
     </Heading>
     <List padding="0 60px 0 0">

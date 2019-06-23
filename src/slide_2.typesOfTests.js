@@ -5,7 +5,7 @@ import React from 'react'
 import { Heading, Slide, List, ListItem, Image, Layout, Fill, Appear, Notes } from 'spectacle'
 
 export const Slide2 = (
-  <Slide transition={['zoom']} bgColor="primary">
+  <Slide>
     <Notes>
       <ol>
         <li>Analiza statyczna - eliminujemy błędy runtime, proste bugi</li>
@@ -33,7 +33,7 @@ export const Slide2 = (
         <li>wspomnieć o visual regression testing</li>
       </ol>
     </Notes>
-    <Heading margin="30px 0 30px 0" size={6} caps lineHeight={1} textColor="quaternary">
+    <Heading margin="30px 0 100px 0" size={6} caps lineHeight={1} textColor="primary">
       Rodzaje testów
     </Heading>
     <Layout>
@@ -61,8 +61,17 @@ export const Slide2 = (
           </Appear>
         </List>
       </Fill>
-      <Fill>
-        <Image src="https://testingjavascript.com/static/trophyWithLabels@2x-3c2b593913ddfea970b801e67648092d.png" />
+      <Fill
+        style={{
+          backgroundColor: '#fff',
+          padding: '0 30px',
+          borderRadius: '15px'
+        }}
+      >
+        <Image
+          bgColor="#fff"
+          src="https://testingjavascript.com/static/trophyWithLabels@2x-3c2b593913ddfea970b801e67648092d.png"
+        />
       </Fill>
     </Layout>
   </Slide>
