@@ -1,55 +1,40 @@
 // Import React
-import React from 'react';
+import React from 'react'
 
 // Import Spectacle Core tags
-import {
-  BlockQuote,
-  Cite,
-  Deck,
-  Heading,
-  ListItem,
-  List,
-  Quote,
-  Slide,
-  Text,
-} from 'spectacle';
+import { BlockQuote, Cite, Deck, Heading, ListItem, List, Quote, Slide, Text, Appear } from 'spectacle'
+import { Slide1 } from './slide_1.intro'
+import { Slide2 } from './slide_2.typesOfTests'
+import { Slide3 } from './slide_3.e2eTests'
+import { Slide4 } from './slide_4.cypressOverview'
 
 // Import theme
-import createTheme from 'spectacle/lib/themes/default';
+import createTheme from 'spectacle/lib/themes/default'
 
 // Require CSS
-require('normalize.css');
+require('normalize.css')
 
 const theme = createTheme(
   {
     primary: 'white',
     secondary: '#1F2022',
     tertiary: '#03A9FC',
-    quaternary: '#CECECE',
+    quaternary: 'rgb(22, 35, 50)'
   },
   {
     primary: 'Montserrat',
-    secondary: 'Helvetica',
+    secondary: 'Helvetica'
   }
-);
-
+)
 export default class Presentation extends React.Component {
   render() {
     return (
-      <Deck
-        transition={['zoom', 'slide']}
-        transitionDuration={500}
-        theme={theme}
-      >
-        <Slide transition={['zoom']} bgColor="primary">
-          <Heading size={1} fit caps lineHeight={1} textColor="secondary">
-            Spectacle Boilerplate
-          </Heading>
-          <Text margin="10px 0 0" textColor="tertiary" size={1} fit bold>
-            open the presentation/index.js file to get started
-          </Text>
-        </Slide>
-        <Slide transition={['fade']} bgColor="tertiary">
+      <Deck transition={['zoom', 'slide']} transitionDuration={500} theme={theme}>
+        {Slide1}
+        {Slide2}
+        {Slide3}
+        {Slide4}
+        <Slide transition={['fade']}>
           <Heading size={6} textColor="primary" caps>
             Typography
           </Heading>
@@ -72,24 +57,27 @@ export default class Presentation extends React.Component {
             Standard text
           </Text>
         </Slide>
-        <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
+        <Slide transition={['fade']}>
           <Heading size={6} textColor="secondary" caps>
             Standard List
           </Heading>
           <List>
-            <ListItem>Item 1</ListItem>
+            <Appear>
+              <ListItem>Item 1</ListItem>
+            </Appear>
+
             <ListItem>Item 2</ListItem>
             <ListItem>Item 3</ListItem>
             <ListItem>Item 4</ListItem>
           </List>
         </Slide>
-        <Slide transition={['fade']} bgColor="secondary" textColor="primary">
+        <Cite transition={['fade']}>
           <BlockQuote>
             <Quote>Example Quote</Quote>
             <Cite>Author</Cite>
           </BlockQuote>
-        </Slide>
+        </Cite>
       </Deck>
-    );
+    )
   }
 }
