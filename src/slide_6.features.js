@@ -5,7 +5,7 @@ import React from 'react'
 import { Heading, Slide, Notes, Appear, List, ListItem } from 'spectacle'
 
 export const Slide6 = (
-  <Slide>
+  <Slide controlColor="primary" progressColor="primary">
     <Notes>
       <ol>
         <li>snapshoty -> poszczególne kroki są zapisywane, widzimy dokładnie co zdarzyło się na danym kroku [DEMO]</li>
@@ -15,14 +15,14 @@ export const Slide6 = (
           funkcja .debug()]
         </li>
         <li>
-          Czekanie -> cypress jeżeli nie znajduje elementu DOM nie zwraca pustej kolekcji jak jQuery, aut0-retry aż nie
-          znajdzie elementu albo minie timeout, callback then [DEMO]
+          powtarzalne wyniki testów -> cypress jeżeli nie znajduje elementu DOM nie zwraca pustej kolekcji jak jQuery,
+          auto-retry aż nie znajdzie elementu albo minie timeout, callback then [DEMO]
         </li>
         <li>stub, spy, clock https://docs.cypress.io/guides/guides/stubs-spies-and-clocks.html#Capabilities</li>
       </ol>
     </Notes>
     <Heading margin="30px 0 30px 0" size={6} caps lineHeight={1} textColor="primary">
-      Ficzery
+      Zalety
     </Heading>
     <List padding="0 60px 0 0">
       <Appear>
@@ -37,7 +37,7 @@ export const Slide6 = (
       </Appear>
       <Appear>
         <ListItem margin="10px 0" textSize={26}>
-          Automatyczne czekanie
+          Przewidywalne i powtarzalne wyniki testów
         </ListItem>
       </Appear>
       <Appear>
@@ -47,17 +47,12 @@ export const Slide6 = (
       </Appear>
       <Appear>
         <ListItem margin="10px 0" textSize={26}>
-          Stub, Spy, Clock
-        </ListItem>
-      </Appear>
-      <Appear>
-        <ListItem margin="10px 0" textSize={26}>
-          Przewidywalne i powtarzalne wyniki testów dzięki zastosowanej architekturze
-        </ListItem>
-      </Appear>
-      <Appear>
-        <ListItem margin="10px 0" textSize={26}>
           Screenshoty i wideo
+        </ListItem>
+      </Appear>
+      <Appear>
+        <ListItem margin="10px 0" textSize={26}>
+          Dobra dokumentacja
         </ListItem>
       </Appear>
     </List>

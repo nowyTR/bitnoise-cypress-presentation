@@ -5,13 +5,13 @@ import React from 'react'
 import { Heading, Slide, Notes, S, List, ListItem } from 'spectacle'
 
 export const Slide4 = (
-  <Slide>
+  <Slide controlColor="primary" progressColor="primary">
     <Notes>
       <ol>
         <li>można instalować rozszerzenia dla przeglądarki, customowy config cypressa dla przeglądarki</li>
       </ol>
     </Notes>
-    <Heading margin="30px 0 30px 0" size={4} caps lineHeight={1} textColor="primary">
+    <Heading margin="30px 0 30px 0" size={6} caps lineHeight={1} textColor="primary">
       Cypress
     </Heading>
     <List padding="0 60px 0 0">
@@ -28,7 +28,7 @@ export const Slide4 = (
         Open Sourcowy Test Runner - aplikacja pozwalająca na uruchamianie testów w przeglądarce
       </ListItem>
       <ListItem margin="10px 0" textSize={26}>
-        Działa w oparciu o przeglądarki z rodziny Chrome: Google Chrome, Chromium, Canary, Electron
+        Działa w oparciu o przeglądarki z rodziny Chromium: Google Chrome, Chromium, Canary, Electron
       </ListItem>
       <ListItem margin="10px 0" textSize={26}>
         Komercyjny Dashboard - daje wgląd w testy uruchamiane w CI(logi, nagrywane wideo, screenshoty)

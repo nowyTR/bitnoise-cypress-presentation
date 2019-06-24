@@ -5,17 +5,18 @@ import React from 'react'
 import { Heading, Slide, Notes, Appear, List, ListItem } from 'spectacle'
 
 export const Slide5 = (
-  <Slide>
+  <Slide controlColor="primary" progressColor="primary">
     <Notes>
       <ol>
         <li>nigdy nie będzie wsparcia dla tabów, nie jest potrzebne -> anchor zawsze otworzy taba</li>
         <li>eventy mobilne są w planie</li>
         <li>adaptery dla innych języków backendowych są w planie</li>
         <li>hover, iframe, file download/upload</li>
+        <li>wspardcie dla przeglądarek -> trwają prace, firefox jest blisko</li>
       </ol>
     </Notes>
     <Heading margin="30px 0 30px 0" size={6} caps lineHeight={1} textColor="primary">
-      Kompromisy - nie ma rzeczy idealnych
+      Wady
     </Heading>
     <List padding="0 60px 0 0">
       <Appear>
@@ -44,17 +45,17 @@ export const Slide5 = (
         </ListItem>
       </Appear>
       <Appear>
-        <ListItem margin="10px 0" textSize={26}>
+        <ListItem margin="10px 0" textSize={26} textColor="green">
           Brak wsparcia dla eventów natywnych/mobilnych
         </ListItem>
       </Appear>
       <Appear>
-        <ListItem margin="10px 0" textSize={26}>
+        <ListItem margin="10px 0" textSize={26} textColor="green">
           Brak wsparcia dla innych przeglądarek
         </ListItem>
       </Appear>
       <Appear>
-        <ListItem margin="10px 0" textSize={26}>
+        <ListItem margin="10px 0" textSize={26} textColor="green">
           Testy są odpalane w przeglądarce -> supportowany jest tylko Javascript, komunikacja z backendem jest
           utrudniona
         </ListItem>

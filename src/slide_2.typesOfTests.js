@@ -5,7 +5,7 @@ import React from 'react'
 import { Heading, Slide, List, ListItem, Image, Layout, Fill, Appear, Notes } from 'spectacle'
 
 export const Slide2 = (
-  <Slide>
+  <Slide controlColor="primary" progressColor="primary">
     <Notes>
       <ol>
         <li>Analiza statyczna - eliminujemy błędy runtime, proste bugi</li>

@@ -9,6 +9,8 @@ import { Slide3 } from './slide_3.e2eTests'
 import { Slide4 } from './slide_4.cypressOverview'
 import { Slide5 } from './slide_5.tradeoffs'
 import { Slide6 } from './slide_6.features'
+import { Slide7 } from './slide_7.architecture'
+import { Slide8 } from './slide_8.references'
 
 // Import theme
 import createTheme from 'spectacle/lib/themes/default'
@@ -35,7 +37,7 @@ const theme = createTheme(
 export default class Presentation extends React.Component {
   render() {
     return (
-      <Deck transition={['zoom', 'slide']} transitionDuration={500} theme={theme}>
+      <Deck transition={['slide']} transitionDuration={500} theme={theme}>
         <SlideSet
           style={{
             backgroundImage: `url(${images.bg})`,
@@ -50,6 +52,8 @@ export default class Presentation extends React.Component {
           {Slide4}
           {Slide5}
           {Slide6}
+          {Slide7}
+          {Slide8}
         </SlideSet>
       </Deck>
     )
