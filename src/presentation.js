@@ -11,6 +11,8 @@ import { Slide5 } from './slide_5.tradeoffs'
 import { Slide6 } from './slide_6.features'
 import { Slide7 } from './slide_7.architecture'
 import { Slide8 } from './slide_8.references'
+import { Slide9 } from './slide_9.setup'
+import { Slide10 } from './slide_10.folder_structure'
 
 // Import theme
 import createTheme from 'spectacle/lib/themes/default'
@@ -54,6 +56,8 @@ export default class Presentation extends React.Component {
           {Slide6}
           {Slide7}
           {Slide8}
+          {Slide9}
+          {Slide10}
         </SlideSet>
       </Deck>
     )

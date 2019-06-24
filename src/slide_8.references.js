@@ -35,6 +35,12 @@ export const Slide8 = (
         - Gleb Bahmutov
       </ListItem>
       <ListItem textSize={26} margin="10px 0">
+        <Link textColor="#ffc" href="http://www.algosmart.pl/pisac-testy-end-end-aplikacji-react-cypress/">
+          <S type="underline">Jak pisać testy end-to-end...</S>
+        </Link>{' '}
+        - Marcin Czarkowski
+      </ListItem>
+      <ListItem textSize={26} margin="10px 0">
         <Link textColor="#ffc" href="https://frontendmasters.com/courses/testing-react/cypress/">
           <S type="underline">Frontend Masters: Testing React Applications</S>
         </Link>

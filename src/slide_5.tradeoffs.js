@@ -45,17 +45,17 @@ export const Slide5 = (
         </ListItem>
       </Appear>
       <Appear>
-        <ListItem margin="10px 0" textSize={26} textColor="green">
+        <ListItem margin="10px 0" textSize={26} textColor="yellow">
           Brak wsparcia dla eventów natywnych/mobilnych
         </ListItem>
       </Appear>
       <Appear>
-        <ListItem margin="10px 0" textSize={26} textColor="green">
+        <ListItem margin="10px 0" textSize={26} textColor="yellow">
           Brak wsparcia dla innych przeglądarek
         </ListItem>
       </Appear>
       <Appear>
-        <ListItem margin="10px 0" textSize={26} textColor="green">
+        <ListItem margin="10px 0" textSize={26} textColor="yellow">
           Testy są odpalane w przeglądarce -> supportowany jest tylko Javascript, komunikacja z backendem jest
           utrudniona
         </ListItem>
