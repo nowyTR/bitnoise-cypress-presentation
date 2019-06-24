@@ -1,4 +1,17 @@
-"scripts": {
-    "cy:run": "cypress run",
-    "cy:open": "cypress open"
-}
+describe('login', () => {
+  it('should login the user', () => {
+    cy.createUser().then(user => {
+      cy.enterWithEmail(user.email)
+        .url()
+        .should('include', '/login/confirm')
+        .getByLabelText(/password/i)
+        .click()
+        .type(user.password)
+        .get('[data-cy=submit]')
+        .click()
+        .url()
+        .should('include', '/feed')
+        .assertUserToken()
+    })
+  })
+})

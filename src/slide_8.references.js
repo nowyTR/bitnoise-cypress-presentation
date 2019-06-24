@@ -6,7 +6,18 @@ import { Heading, Slide, Notes, S, Link, List, ListItem } from 'spectacle'
 
 export const Slide8 = (
   <Slide controlColor="primary" progressColor="primary">
-    <Notes>Czas na pytania</Notes>
+    <Notes>
+      {' '}
+      <ol>
+        <li>Podsumowanie</li>
+        <li>
+          Warto zacząć przygodę z testowaniem od Cypressa, ma niski próg wejścia i jest przystępny dla początkujących.
+          Kiedy się z nim oswoisz łatwiej będzie pisać testy jednostkowe i integracyjne.
+        </li>
+        <li>O źródłach</li>
+        <li>Czas na pytania</li>
+      </ol>
+    </Notes>
     <Heading margin="30px 0 30px 0" size={6} caps lineHeight={1} textColor="primary">
       Źródła
     </Heading>
