@@ -7,8 +7,7 @@ import { Heading, Slide, Notes, Appear, List, ListItem } from 'spectacle'
 export const Slide3 = (
   <Slide controlColor="primary" progressColor="primary">
     <Notes>
-      <ol>
-        <li>Większośc scenariuszy optymistycznych</li>
+      <ol style={{ fontSize: '18px', lineHeight: 1.4 }}>
         <li>
           Czas wykonywania może być długi ze względu na złożoność scenariuszy, czekanie na network requesty, wczytywanie
           elementów dom
@@ -18,6 +17,7 @@ export const Slide3 = (
           Wynik testu nie zawsze jest powtarzalny, test działa lokalnie, nie działa w CI, różnice w działaniu między
           maszynami
         </li>
+        <li>Większośc scenariuszy optymistycznych</li>
         <li>na koniec: mały wybór narzędzi, Selenium stworzone 15 lat temu</li>
       </ol>
     </Notes>

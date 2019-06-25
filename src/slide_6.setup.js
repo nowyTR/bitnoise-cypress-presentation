@@ -13,7 +13,7 @@ const scriptsJson = `"scripts": {
 export const Slide6 = (
   <Slide controlColor="primary" progressColor="primary" align="flex-start center">
     <Notes>
-      <ol>
+      <ol style={{ fontSize: '18px', lineHeight: 1.4 }}>
         <li>cy open -> uruchamia test runner w trybie interaktywnym</li>
         <li>cy run -> wykonuje wszystkie testy w trybie headless w przeglądarce Electron</li>
       </ol>

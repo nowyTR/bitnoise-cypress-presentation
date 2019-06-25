@@ -7,14 +7,14 @@ import { Heading, Slide, Notes, Image } from 'spectacle'
 export const Slide7 = (
   <Slide controlColor="primary" progressColor="primary" align="flex-start center">
     <Notes>
-      <ol>
+      <ol style={{ fontSize: '18px', lineHeight: 1.4 }}>
         <li>
           fixtures - zewnętrzne dane, które mogą używać nasze testy, przeważnie jsony do stubowania network requestów,
           obrazki, odpowiednik __mocks__ znanego nam z Jest
         </li>
         <li>
           integration - folder, w którym dodajemy testy, nazewnictow .spec, podział na podfoldery, zmiana nazwy na e2e,
-          folder examples dużo przykłądów i komentarzy
+          folder examples dużo przykładów i komentarzy
         </li>
         <li>
           plugins -> zmiana wewnętrznych procesów cypressa, mamy tu dostęp do procesu node, można pisać kod który

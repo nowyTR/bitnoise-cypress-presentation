@@ -7,10 +7,10 @@ import { Heading, Slide, List, ListItem, Image, Layout, Fill, Appear, Notes } fr
 export const Slide2 = (
   <Slide controlColor="primary" progressColor="primary">
     <Notes>
-      <ol>
+      <ol style={{ fontSize: '18px', lineHeight: 1.4 }}>
         <li>Analiza statyczna - eliminujemy błędy runtime, proste bugi</li>
-        <li>Testy integracyjne: - sprawdzamy część aplikacji, łączymy ze sobą komponenty</li>
         <li>Testy jednostkowe - sprawdzamy w izolacji pojedyncze funkcje</li>
+        <li>Testy integracyjne: - sprawdzamy część aplikacji, łączymy ze sobą komponenty</li>
         <li>
           Testy e2e - odpalamy całą aplikację - frontend i backend, test imituje zachowanie i interakcje usera,
           Zapewniają pewność że aplikacja działa po stronie użytkownika

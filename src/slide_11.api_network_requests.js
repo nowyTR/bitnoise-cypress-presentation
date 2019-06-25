@@ -28,7 +28,7 @@ const code = `
 export const Slide11 = (
   <Slide controlColor="primary" progressColor="primary" align="flex-start center">
     <Notes>
-      <ol>
+      <ol style={{ fontSize: '18px', lineHeight: 1.4 }}>
         <li>
           komenda wait pozwala na deklaratywne czekanie na response requestu (wykonywanie następnych poleceń jest
           wstrzymane) - dzieki temu testy są bardziej przewidywalne (np. testowanie komponentu autocomplete), pozwala na

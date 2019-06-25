@@ -7,7 +7,7 @@ import { Heading, Slide, Notes, Appear, List, ListItem } from 'spectacle'
 export const Slide14 = (
   <Slide controlColor="primary" progressColor="primary">
     <Notes>
-      <ol>
+      <ol style={{ fontSize: '18px', lineHeight: 1.4 }}>
         <li>nigdy nie będzie wsparcia dla tabów, nie jest potrzebne -> anchor zawsze otworzy taba</li>
         <li>eventy mobilne są w planie</li>
         <li>adaptery dla innych języków backendowych są w planie</li>

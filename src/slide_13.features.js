@@ -7,7 +7,7 @@ import { Heading, Slide, Notes, Appear, List, ListItem } from 'spectacle'
 export const Slide13 = (
   <Slide controlColor="primary" progressColor="primary">
     <Notes>
-      <ol>
+      <ol style={{ fontSize: '18px', lineHeight: 1.4 }}>
         <li>snapshoty -> poszczególne kroki są zapisywane, widzimy dokładnie co zdarzyło się na danym kroku [DEMO]</li>
         <li>
           debugowanie -> Cypress działa w tej samej pętli wykonania (run loop) co aplikacja, mamy bezpośredni dostęp do
