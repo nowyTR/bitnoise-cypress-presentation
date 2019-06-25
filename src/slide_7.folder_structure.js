@@ -7,9 +7,9 @@ import { Heading, Slide, Notes, Image } from 'spectacle'
 export const Slide7 = (
   <Slide controlColor="primary" progressColor="primary" align="flex-start center">
     <Notes>
-      <ol style={{ fontSize: '18px', lineHeight: 1.4 }}>
+      <ol style={{ fontSize: '16px', lineHeight: 1.4 }}>
         <li>
-          fixtures - zewnętrzne dane, które mogą używać nasze testy, przeważnie jsony do stubowania network requestów,
+          fixtures - zewnętrzne dane, których mogą używać nasze testy, przeważnie jsony do stubowania network requestów,
           obrazki, odpowiednik __mocks__ znanego nam z Jest
         </li>
         <li>

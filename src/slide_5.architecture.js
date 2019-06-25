@@ -7,7 +7,7 @@ import { Heading, Slide, Notes, Image } from 'spectacle'
 export const Slide5 = (
   <Slide controlColor="primary" progressColor="primary">
     <Notes>
-      <ol style={{ fontSize: '18px', lineHeight: 1.4 }}>
+      <ol style={{ fontSize: '16px', lineHeight: 1.4 }}>
         <li>proces node.js uruchamia przeglądarkę z proxy</li>
         <li>
           otwiera stronę html zawierającą 2 iframy -> jeden zawiera nasze testy uruchomione na localhost a drugi naszą

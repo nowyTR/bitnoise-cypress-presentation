@@ -7,7 +7,7 @@ import { Heading, Slide, Notes, S, List, ListItem, Appear } from 'spectacle'
 export const Slide4 = (
   <Slide controlColor="primary" progressColor="primary">
     <Notes>
-      <ol style={{ fontSize: '18px', lineHeight: 1.4 }}>
+      <ol style={{ fontSize: '16px', lineHeight: 1.4 }}>
         <li>można instalować rozszerzenia dla przeglądarki, customowy config cypressa dla przeglądarki</li>
       </ol>
     </Notes>

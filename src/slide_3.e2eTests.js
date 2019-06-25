@@ -7,17 +7,17 @@ import { Heading, Slide, Notes, Appear, List, ListItem } from 'spectacle'
 export const Slide3 = (
   <Slide controlColor="primary" progressColor="primary">
     <Notes>
-      <ol style={{ fontSize: '18px', lineHeight: 1.4 }}>
+      <ol style={{ fontSize: '16px', lineHeight: 1.4 }}>
+        <li>Większośc scenariuszy optymistycznych</li>
         <li>
           Czas wykonywania może być długi ze względu na złożoność scenariuszy, czekanie na network requesty, wczytywanie
           elementów dom
         </li>
-        <li>Trudne w utrzymaniu - najmniejsza zamiana w ui może</li>
+        <li>Trudne w utrzymaniu - najmniejsza zamiana w ui może sprawić że test sfailuje</li>
         <li>
           Wynik testu nie zawsze jest powtarzalny, test działa lokalnie, nie działa w CI, różnice w działaniu między
           maszynami
         </li>
-        <li>Większośc scenariuszy optymistycznych</li>
         <li>na koniec: mały wybór narzędzi, Selenium stworzone 15 lat temu</li>
       </ol>
     </Notes>

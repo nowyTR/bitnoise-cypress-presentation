@@ -7,7 +7,7 @@ import { Heading, Slide, Notes, S, Link, List, ListItem } from 'spectacle'
 export const Slide15 = (
   <Slide controlColor="primary" progressColor="primary">
     <Notes>
-      <ol style={{ fontSize: '18px', lineHeight: 1.4 }}>
+      <ol style={{ fontSize: '16px', lineHeight: 1.4 }}>
         <li>Podsumowanie</li>
         <li>
           Warto zacząć przygodę z testowaniem od Cypressa, ma niski próg wejścia i jest przystępny dla początkujących.

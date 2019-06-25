@@ -7,7 +7,7 @@ import { Heading, Slide, List, ListItem, Image, Layout, Fill, Appear, Notes } fr
 export const Slide2 = (
   <Slide controlColor="primary" progressColor="primary">
     <Notes>
-      <ol style={{ fontSize: '18px', lineHeight: 1.4 }}>
+      <ol style={{ fontSize: '16px', lineHeight: 1.4 }}>
         <li>Analiza statyczna - eliminujemy błędy runtime, proste bugi</li>
         <li>Testy jednostkowe - sprawdzamy w izolacji pojedyncze funkcje</li>
         <li>Testy integracyjne: - sprawdzamy część aplikacji, łączymy ze sobą komponenty</li>

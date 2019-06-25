@@ -20,7 +20,7 @@ const code = `
 export const Slide9 = (
   <Slide controlColor="primary" progressColor="primary" align="flex-start center">
     <Notes>
-      <ol style={{ fontSize: '18px', lineHeight: 1.4 }}>
+      <ol style={{ fontSize: '16px', lineHeight: 1.4 }}>
         <li>Komendy symulują interakcje usera</li>
       </ol>
     </Notes>
