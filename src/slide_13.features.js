@@ -4,7 +4,7 @@ import React from 'react'
 // Import Spectacle Core tags
 import { Heading, Slide, Notes, Appear, List, ListItem } from 'spectacle'
 
-export const Slide6 = (
+export const Slide13 = (
   <Slide controlColor="primary" progressColor="primary">
     <Notes>
       <ol>

@@ -10,7 +10,7 @@ const scriptsJson = `"scripts": {
   "cy:open": "cypress open"
 }`
 
-export const Slide9 = (
+export const Slide6 = (
   <Slide controlColor="primary" progressColor="primary" align="flex-start center">
     <Notes>
       <ol>

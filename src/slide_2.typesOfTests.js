@@ -33,24 +33,24 @@ export const Slide2 = (
         <li>wspomnieć o visual regression testing</li>
       </ol>
     </Notes>
-    <Heading margin="30px 0 100px 0" size={6} caps lineHeight={1} textColor="primary">
+    <Heading margin="30px 0 30px 0" size={6} caps lineHeight={1} textColor="primary">
       Rodzaje testów
     </Heading>
     <Layout>
       <Fill>
         <List padding="0 60px 0 0">
           <Appear order={4}>
-            <ListItem margin="10px 0" textSize={24}>
+            <ListItem margin="50px 0 70px" textSize={24}>
               Testy End to End
             </ListItem>
           </Appear>
           <Appear order={3}>
-            <ListItem margin="10px 0" textSize={24}>
+            <ListItem margin="10px 0 120px" textSize={24}>
               Testy integracyjne
             </ListItem>
           </Appear>
           <Appear order={2}>
-            <ListItem margin="10px 0" textSize={24}>
+            <ListItem margin="10px 0 40px" textSize={24}>
               Testy jednostkowe
             </ListItem>
           </Appear>

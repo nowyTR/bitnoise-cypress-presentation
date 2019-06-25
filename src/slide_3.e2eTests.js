@@ -8,6 +8,7 @@ export const Slide3 = (
   <Slide controlColor="primary" progressColor="primary">
     <Notes>
       <ol>
+        <li>Większośc scenariuszy optymistycznych</li>
         <li>
           Czas wykonywania może być długi ze względu na złożoność scenariuszy, czekanie na network requesty, wczytywanie
           elementów dom
@@ -46,7 +47,7 @@ export const Slide3 = (
       </Appear>
       <Appear>
         <ListItem margin="10px 0" textSize={26} textColor="red">
-          Wynik testu nie zawsze jest powtarzalny, szczególnie jeśli test jest długi i obejmuje kilka scenariuszy.
+          Wynik testu nie zawsze jest powtarzalny
         </ListItem>
       </Appear>
       <Appear>
